@@ -13,8 +13,7 @@ const Home = () => {
           <TextChanger />
         </h1>
         <p className="text-sm md:text-2xl leading-tight tracking-tight">
-          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quo tenetur sit voluptatum
-          voluptate possimus eveniet numquam hic repellendus.
+        "I'm a passionate web developer specializing in modern JavaScript frameworks like React and backend technologies like Laravel. I build high-performance, user-friendly applications that make an impact."
         </p>
         <a
           // href={cvFile} // Link to your CV file

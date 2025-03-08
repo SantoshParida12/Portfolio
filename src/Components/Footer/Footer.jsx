@@ -2,25 +2,26 @@ import React from 'react'
 import { MdOutlineEmail } from 'react-icons/md'
 import { CiLinkedin } from 'react-icons/ci'
 import { FaGithub } from 'react-icons/fa'
+
 const Footer = () => {
   return (
     <div id='Footer' className='flex justify-around bg-[#465697] text-white p-10 md:p-12 items-center'>
         <div>
             <h1 className='text-2xl md:text-6xl font-bold'>Ends Here</h1>
-            <h3 className='text-sm md:text-2xl font-normal'>Feel Free to reach out</h3>
+            <h3 className='text-sm md:text-2xl font-normal'>Feel Free to Reach Out</h3>
         </div>
         <ul className='text-sm md:text-xl'>
-            <li className='flex gap-1 items-center'>
+            <li className='flex gap-2 items-center'>
                 <MdOutlineEmail size={20} />
-                myemail@gmail.com
+                <a href="https://gmail.com" className="hover:underline">santoshparida891@@gmail.com</a>
             </li>
-            <li className='flex gap-1 items-center'>
+            <li className='flex gap-2 items-center'>
                 <CiLinkedin size={20} />
-                linkedin.com/username
+                <a href="https://linkedin.com/in/username" target="_blank" rel="noopener noreferrer" className="hover:underline">linkedin.com/in/username</a>
             </li>
-            <li className='flex gap-1 items-center'>
+            <li className='flex gap-2 items-center'>
                 <FaGithub size={20} />
-                github.com/username
+                <a href="https://github.com/SantoshParida12" target="_blank" rel="noopener noreferrer" className="hover:underline">github.com/Santosh12</a>
             </li>
         </ul>
     </div>

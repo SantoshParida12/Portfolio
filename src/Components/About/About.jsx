@@ -15,8 +15,9 @@ const About = () => {
                         <span className='w-96'>
                             <h1 className='text-xl md:text-2xl font-semibold leading-normal'>Frontend Developer</h1>
                             <p className='text-sm md:text-md leading-tight'>
-                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt pariatur doloribus quasi consectetur dicta deserunt, ea velit obcaecati cumque in exercitationem architecto nihil qui possimus natus consequatur sed, veniam amet!
+                            I specialize in building interactive and responsive web interfaces using modern frontend technologies like React, Tailwind CSS, and JavaScript. My focus is on creating seamless user experiences with clean and efficient code.
                             </p>
+
                         </span>
                     </div>
                     <div className='flex gap-3 py-4'>
@@ -24,7 +25,7 @@ const About = () => {
                         <span className='w-96'>
                             <h1 className='text-xl md:text-2xl font-semibold leading-normal'>Backend Developer</h1>
                             <p className='text-sm md:text-md leading-tight'>
-                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt pariatur doloribus quasi consectetur dicta deserunt, ea velit obcaecati cumque in exercitationem architecto nihil qui possimus natus consequatur sed, veniam amet!
+                            As a backend developer, I work with Laravel and Node.js to build scalable, secure, and high-performance web applications. From API development to database design, I ensure smooth backend operations.
                             </p>
                         </span>
                     </div>
@@ -33,7 +34,7 @@ const About = () => {
                         <span className='w-96'>
                             <h1 className='text-xl md:text-2xl font-semibold leading-normal'>Database Developer</h1>
                             <p className='text-sm md:text-md leading-tight'>
-                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt pariatur doloribus quasi consectetur dicta deserunt, ea velit obcaecati cumque.
+                            I design and manage efficient database structures using MySQL and PostgreSQL. Optimizing queries, ensuring data integrity, and managing migrations are key aspects of my work.
                             </p>
                         </span>
                     </div>
