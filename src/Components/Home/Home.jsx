@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import avatarImg from "../../assets/Image/mine.jpg";
 import TextChanger from '../TextChanger';
-// import cvFile from '../../assets/CV/cv.pdf'; // Assuming the CV file is in the assets folder
+import cvFile from '../../assets/CV/cv.pdf'; // Assuming the CV file is in the assets folder
 
 const Home = () => {
   const [isVisible, setIsVisible] = useState(true);
@@ -15,11 +15,11 @@ const Home = () => {
         <p className="text-sm md:text-2xl leading-tight tracking-tight">
         "I'm a passionate web developer specializing in modern JavaScript frameworks like React and backend technologies like Laravel. I build high-performance, user-friendly applications that make an impact."
         </p>
-        <a
-          // href={cvFile} // Link to your CV file
-          // download="My_CV.pdf" // Name the file when downloaded
+        <a 
+          href={cvFile} // Link to your CV file
+          download="My_CV.pdf" // Name the file when downloaded
         >
-          <button className='mt-5 md:md-10 text-white py-2 px-3 text-sm md:text-lg md:py-2 md:px-4 hover:opacity-85 duration-300 hover:scale-105 font-semibold rounded-3xl bg-[#465697]'>
+          <button className='mt-5 md:md-10 cursor-pointer text-white py-2 px-3 text-sm md:text-lg md:py-2 md:px-4 hover:opacity-85 duration-300 hover:scale-105 font-semibold rounded-3xl bg-[#465697]'>
             Download CV
           </button>
         </a>
